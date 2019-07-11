@@ -18,8 +18,20 @@ print("Welcome to my house!")
 # is_triangle(num1, num2, num3)
 
 def longest_word(w1, w1, w1):
-    if w1 > w2 and w1 > w3:
-        longest = w1
-        print(str(word1) + "is the longest word")
+    if len(w1) > len(w3) and len(w2):
+        print(word1)
+        return(word1)
+    elif len(w2) > len(w3) and len(w1):
+        print(word2)
+        return(word2)
+    elif len(w3) > len(w2) and len(w1):
+        print(word3)
+        return(word3)
 
-word = raw
+longest_word(word1, word2, word3)
+
+word = raw_input("Give me a word: ")
+
+def reverse_string(x):
+    return[::-1]
+print("this is your word backwards: " + reverse_string(word))
